@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EasyRoute</title>
+    <link rel="shortcut icon" href="/src/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="logo">
+          <img src="/src/images/logo.png" alt="" width="80" height="60" >
+          <img src="/src/images/titulo.png" alt="" height="50">
+        </a>
+
+        <section class="textos-header">
+          <a><b>Propuesta</b></a>
+          <a><b>Objetivos</b></a>
+          <a><b>Aplicacion</b></a>
+        </section>
+        </div>
+    </header>
+    <main>
+      <section class="wrapper">
+        <div class="one">
+          <section>
+            <div class="titulos">
+              <h1>
+                <b>Propuesta</b>
+              </h1>
+            </div>
+            <p class="texto1">
+              <spam>
+                Planeamos utilizar la teoria de grafos para estructurar los datos extraidos de Google Maps.<br><br>
+                Ello con el fin de hallar el camino minimo entre puntos de interes que el usuario desee transitar.<br><br>
+                Ademas, haremos uso del algoritmo de Dijkstra para hallar el recorrido minimo de un grafo ponderado 
+                basandonos en el peso de las aristas.<br><br>
+                El valor de las aristas seran determinadas teniendo en cuenta el nivel del trafico usual que puede
+                existir en una calle o avenida y la distancia de los distritos principales de Lima Metropolitana.
+              </spam>
+            </p>
+          </section>
+        </div>
+        <div class="two">
+          <img class="mapalima" src="/src/images/mapa-lima.JPG" alt="">
+        </div>
+        <div class="three">
+          <img class="grafito" src="/src/images/grafo.JPG" alt="">
+        </div>
+        <div class="four">
+          <section>
+            <div class="titulos">
+              <h1>
+                <b>Objetivos</b>
+              </h1>
+            </div>
+            <p>
+              <spam>
+                <li class="texto2">Hallar la ruta minima entre distintos puntos de interes que el usuario haya seleccionado.</li>
+                <li class="texto2">Permitir al usuario elegir el punto de partida y su destino</li>
+                <li class="texto2">Mostrar la ruta detalladamente mediante un grafo.</li>
+                <li class="texto2">Brindar la opción de seleccionar la hora al escoger una ruta.</li>
+                <li class="texto2">Permitir que el usuario visualice los nombres de los lugares que recorra.</li>
+                <li class="texto2">Incorporar un dataset completo de todos los lugares por cada distrito de Lima Metropolitana.</li>
+                <li class="texto2">Implementar una interfaz simple y eficaz para que el usuario realice las búsquedas sin ningún problema.</li>
+                <li class="texto2">Utilizar archivos .csv como base del dataset del programa.</li>
+                <li class="texto2">Implementar algoritmos de recorridos de grafos.</li>
+              </spam>
+            </p>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div class="titulos">
+          <h1>Aplicacion</h1>
+        </div>
+        <p class="texto3">
+          <spam>
+            El aplicativo consistiría de una ventana la cual contendrá 2 textbox donde el usuario podrá
+            ingresar el lugar tanto de partida como el de llegada, como también sus botones respectivos
+            para poder ingresar la elección del usuario.<br><br>
+            Además, se contará con un botón que generará una ventana con todos los lugares disponibles
+            para su búsqueda categorizados por distritos.<br><br>
+            Posteriormente al ingreso de los lugares de partida y llegada, a través de un botón el
+            aplicativo mostrará mediante un grafo la ruta más corta hacia el destino deseado.<br><br>
+            Finalmente, se incluirá un checkbox para que el usuario pueda definir si la búsqueda de la 
+            ruta será en la mañana, tarde o noche.
+            </spam>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
